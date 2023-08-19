@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.learn.mapper.SysPermissionMapper">
 
-    <resultMap id="BaseResultMap" type="com.learn.model.SysPermission">
+    <resultMap id="BaseResultMap" type="com.learn.model.entity.SysPermission">
             <id property="id" column="id" jdbcType="INTEGER"/>
             <result property="roleId" column="role_id" jdbcType="INTEGER"/>
             <result property="moduleId" column="module_id" jdbcType="INTEGER"/>

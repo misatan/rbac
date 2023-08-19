@@ -1,6 +1,7 @@
 package com.learn.service;
 
-import com.learn.model.SysUser;
+import com.learn.model.dto.sysUser.RegisterDTO;
+import com.learn.model.entity.SysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,6 +9,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @description 针对表【sys_user】的数据库操作Service
 * @createDate 2023-07-09 14:18:37
 */
-public interface SysUserService extends IService<SysUser> {
+public interface SysUserService {
 
+    void register(RegisterDTO registerDTO);
 }

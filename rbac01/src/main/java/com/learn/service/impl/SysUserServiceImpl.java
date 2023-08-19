@@ -1,7 +1,8 @@
 package com.learn.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.learn.model.SysUser;
+import com.learn.model.dto.sysUser.RegisterDTO;
+import com.learn.model.entity.SysUser;
 import com.learn.service.SysUserService;
 import com.learn.mapper.SysUserMapper;
 import org.springframework.stereotype.Service;
@@ -12,9 +13,12 @@ import org.springframework.stereotype.Service;
 * @createDate 2023-07-09 14:18:37
 */
 @Service
-public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser>
-    implements SysUserService{
+public class SysUserServiceImpl implements SysUserService{
 
+    @Override
+    public void register(RegisterDTO registerDTO) {
+
+    }
 }
 
 

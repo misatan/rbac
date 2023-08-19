@@ -1,20 +1,18 @@
-package com.learn.model;
+package com.learn.model.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
 
-@TableName(value ="sys_permission")
+@TableName(value ="sys_role")
 @Data
-public class SysPermission implements Serializable {
+public class SysRole implements Serializable {
     private Integer id;
 
-    private Integer roleId;
+    private String roleName;
 
-    private Integer moduleId;
-
-    private String aclValue;
+    private String remark;
 
     private Integer isValid;
 

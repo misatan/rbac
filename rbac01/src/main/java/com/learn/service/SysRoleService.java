@@ -1,6 +1,6 @@
 package com.learn.service;
 
-import com.learn.model.SysRole;
+import com.learn.model.entity.SysRole;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -8,6 +8,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @description 针对表【sys_role】的数据库操作Service
 * @createDate 2023-07-09 14:18:37
 */
-public interface SysRoleService extends IService<SysRole> {
+public interface SysRoleService{
 
 }

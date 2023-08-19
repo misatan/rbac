@@ -1,7 +1,7 @@
 package com.learn.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.learn.model.SysRole;
+import com.learn.model.entity.SysRole;
 import com.learn.service.SysRoleService;
 import com.learn.mapper.SysRoleMapper;
 import org.springframework.stereotype.Service;
@@ -12,8 +12,7 @@ import org.springframework.stereotype.Service;
 * @createDate 2023-07-09 14:18:37
 */
 @Service
-public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole>
-    implements SysRoleService{
+public class SysRoleServiceImpl implements SysRoleService{
 
 }
 

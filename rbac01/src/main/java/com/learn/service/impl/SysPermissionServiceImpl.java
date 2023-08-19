@@ -1,7 +1,7 @@
 package com.learn.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.learn.model.SysPermission;
+import com.learn.model.entity.SysPermission;
 import com.learn.service.SysPermissionService;
 import com.learn.mapper.SysPermissionMapper;
 import org.springframework.stereotype.Service;
@@ -12,8 +12,7 @@ import org.springframework.stereotype.Service;
 * @createDate 2023-07-09 14:18:37
 */
 @Service
-public class SysPermissionServiceImpl extends ServiceImpl<SysPermissionMapper, SysPermission>
-    implements SysPermissionService{
+public class SysPermissionServiceImpl implements SysPermissionService{
 
 }
 
