@@ -83,7 +83,14 @@ crashlytics-build.properties
 .DS_Store
 node_modules
 /dist
-
+dist*
+dist-ssr
+.eslintcache
+*.local
+.stylelintcache
+src/assets/sprites/*.*
+!src/assets/sprites/.gitkeep
+public/icons
 
 # local env files
 .env.local
